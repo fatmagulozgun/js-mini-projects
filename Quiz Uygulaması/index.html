@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="quiz">
+            <h1>Quiz Uygulaması</h1>
+            <div id="quiz-header">
+                <p id="progress">Soru <span id="questionNumber">1</span> / <span id="totalQuestions">5</span></p>
+                <p id="score-info">Puan: <span id="score">0</span></p>
+            </div>
+
+            <div id="question-container">
+                <p id="question">Soru yükleniyor...</p>
+                <div id="answers">
+                    <button class="answer-btn">Cevap 1</button>
+                    <button class="answer-btn">Cevap 2</button>
+                    <button class="answer-btn">Cevap 3</button>
+                    <button class="answer-btn">Cevap 4</button>
+                </div>
+            </div>
+
+            <div id="result" class="hide">
+                <h2>Quiz Tamamlandı!</h2>
+                <p>Toplam Puanınız: <span id="final-score">0</span></p>
+                <button id="restart-btn">Tekrar Başla</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
